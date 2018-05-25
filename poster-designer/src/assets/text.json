@@ -1,0 +1,192 @@
+[  
+   {  
+      "fields":[  
+         {  
+            "type":"string",
+            "text":"I"
+         },
+         {  
+            "type":"string",
+            "text":"am"
+         },
+         {  
+            "type":"string",
+            "text":"the"
+         },
+         {  
+            "type":"string",
+            "text":"best"
+         }
+      ],
+      "styles":[  
+         {  
+            "general":{  
+               "background-color":"#fff",
+               "background-image":"url(./assets/img/dory-250.jpg)",
+               "background-repeat":"no-repeat",
+               "background-position": "50% 100%",
+               "background-size":"24%",
+               "padding":"100px"
+            },
+            "elements":[  
+               {  
+                  "color" : "#e40814",
+                  "letter-spacing":"0",
+                  "line-height":"50px",
+                  "text-align":"left",
+                  "text-decoration":"",
+                  "text-shadow" : "none",
+                  "text-transform":"uppercase",
+                  "font-weight":"normal",
+                  "font-family":"",
+                  "font-size" : "40px",
+                  "font-style" : "",
+                  "position" : "relative",
+                  "top" : "",
+                  "right" : "",
+                  "bottom" : "",
+                  "left" : ""
+               },
+               {  
+                "color" : "#e40814",
+                  "letter-spacing":"0",
+                  "line-height":"50px",
+                  "text-align":"left",
+                  "text-decoration":"",
+                  "text-shadow" : "none",
+                  "text-transform":"uppercase",
+                  "font-weight":"normal",
+                  "font-family":"",
+                  "font-size" : "40px",
+                  "font-style" : "",
+                  "position" : "relative",
+                  "top" : "",
+                  "right" : "",
+                  "bottom" : "",
+                  "left" : ""
+               },
+               {  
+                "color" : "#e40814",
+                  "letter-spacing":"0",
+                  "line-height":"50px",
+                  "text-align":"left",
+                  "text-decoration":"",
+                  "text-shadow" : "none",
+                  "text-transform":"uppercase",
+                  "font-weight":"normal",
+                  "font-family":"",
+                  "font-size" : "40px",
+                  "font-style" : "",
+                  "position" : "relative",
+                  "top" : "",
+                  "right" : "",
+                  "bottom" : "",
+                  "left" : ""
+               },
+               {  
+                "color" : "#e40814",
+                  "letter-spacing":"0",
+                  "line-height":"50px",
+                  "text-align":"left",
+                  "text-decoration":"",
+                  "text-shadow" : "none",
+                  "text-transform":"uppercase",
+                  "font-weight":"normal",
+                  "font-family":"",
+                  "font-size" : "40px",
+                  "font-style" : "",
+                  "position" : "relative",
+                  "top" : "",
+                  "right" : "",
+                  "bottom" : "",
+                  "left" : ""
+               }
+            ]
+         },
+         {  
+            "general":{  
+                "background-color":"#27fd00",
+               "background-image":"",
+               "background-repeat":"",
+               "background-position": "",
+               "background-size":"",
+               "padding":"0"
+            },
+            "elements":[  
+               {  
+                  "color" : "#000",
+                  "letter-spacing":"0",
+                  "line-height":"20px",
+                  "text-align":"left",
+                  "text-decoration":"",
+                  "text-shadow" : "none",
+                  "text-transform":"uppercase",
+                  "font-weight":"normal",
+                  "font-family":"",
+                  "font-size" : "20px",
+                  "font-style" : "italic",
+                  "position" : "absolute",
+                  "top" : "10px",
+                  "right" : "",
+                  "bottom" : "",
+                  "left" : "10px"
+               },
+               {  
+                "color" : "#000",
+                  "letter-spacing":"0",
+                  "line-height":"20px",
+                  "text-align":"left",
+                  "text-decoration":"",
+                  "text-shadow" : "none",
+                  "text-transform":"uppercase",
+                  "font-weight":"normal",
+                  "font-family":"",
+                  "font-size" : "20px",
+                  "font-style" : "italic",
+                  "position" : "absolute",
+                  "top" : "10px",
+                  "right" : "10px",
+                  "bottom" : "",
+                  "left" : ""
+               },
+               {  
+                "color" : "#000",
+                  "letter-spacing":"0",
+                  "line-height":"20px",
+                  "text-align":"left",
+                  "text-decoration":"",
+                  "text-shadow" : "none",
+                  "text-transform":"uppercase",
+                  "font-weight":"normal",
+                  "font-family":"",
+                  "font-size" : "20px",
+                  "font-style" : "italic",
+                  "position" : "absolute",
+                  "top" : "40%",
+                  "right" : "",
+                  "bottom" : "",
+                  "left" : "30%"
+               },
+               {  
+                "color" : "#000",
+                  "letter-spacing":"0",
+                  "line-height":"20px",
+                  "text-align":"left",
+                  "text-decoration":"",
+                  "text-shadow" : "none",
+                  "text-transform":"uppercase",
+                  "font-weight":"bold",
+                  "font-family":"",
+                  "font-size" : "15px",
+                  "font-style" : "",
+                  "position" : "absolute",
+                  "top" : "",
+                  "right" : "",
+                  "bottom" : "10%",
+                  "left" : "30%"
+               }
+            ]
+         }
+      ]
+   }
+]

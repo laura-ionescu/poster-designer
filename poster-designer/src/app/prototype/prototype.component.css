@@ -1,0 +1,13 @@
+.proto-design{
+    height: 600px;
+    border: 1px solid #000;
+}
+
+.designs .style{
+    cursor: pointer;
+    position: relative;
+    height: 200px;
+    border: 1px solid #000;
+    transform: scale(0.7);
+    padding: 0 !important;
+}
