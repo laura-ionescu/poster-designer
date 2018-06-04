@@ -21,4 +21,6 @@ import { PrototypeComponent } from '../prototype/prototype.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class PrototypeModule { }
+export class PrototypeModule {
+  
+}

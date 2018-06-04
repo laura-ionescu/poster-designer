@@ -1,16 +1,14 @@
-
-
 <div class="row">
 
   <div class="col">
 
         <h4>Print Preview</h4>
 
-        <div *ngFor="let prototype of prototypes; index as j"  class="proto-design"  
-        [ngStyle]="prototypes[0].styles[0].general">
+        <div *ngFor="let prototype of prototypes;"  class="proto-design"  
+        [ngStyle]="prototypes[0].styles[iteration].general">
             <!--Get Fields-->
              <div *ngFor="let fields of prototype.fields; index as i;" [ngStyle]="" class="field-holder">
-                <div  [ngStyle]="prototypes[0].styles[0].elements[i]">{{fields.text}}</div>
+                <div  [ngStyle]="prototypes[0].styles[iteration].elements[i]">{{fields.text}}</div>
              </div>
          </div>
 
@@ -34,8 +32,8 @@
 
         <div *ngFor="let prototype of prototypes" class="designs row" >
             <!--Get Input styles-->
-             <div *ngFor="let style of prototype.styles" class="col-md-4">
-                <div class="style" [ngStyle]="style.general">
+             <div *ngFor="let style of prototype.styles; index as j" class="col-md-4">
+                <div class="style" [ngStyle]="style.general" (click)="changeDesign(j)">
            
                     <div *ngFor="let prototype of prototypes" >
                         <!--Get Fields-->

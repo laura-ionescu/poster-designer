@@ -10,13 +10,21 @@ import { HttpErrorResponse } from '@angular/common/http';
 })
 export class PrototypeComponent implements OnInit {
 
-  constructor (private httpService: HttpClient) { 
 
+  changeDesign(new_iteration) {
+    console.log(new_iteration);
+    this.iteration = new_iteration;
   }
+
+  constructor (private httpService: HttpClient) { 
+  }
+
+  iteration : number;
   
   prototypes: string [];
 
   ngOnInit () {
+    this.iteration = 0;
     this.httpService.get('./assets/text.json').subscribe(
       data => {
         this.prototypes = data as string [];	 // FILL THE ARRAY WITH DATA.

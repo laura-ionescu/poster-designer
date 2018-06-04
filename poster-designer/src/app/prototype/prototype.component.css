@@ -1,5 +1,6 @@
 .proto-design{
     height: 600px;
+    position: relative;
     border: 1px solid #000;
 }
 
